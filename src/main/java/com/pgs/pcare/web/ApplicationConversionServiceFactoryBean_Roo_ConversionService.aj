@@ -41,7 +41,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<PcareUser, String> ApplicationConversionServiceFactoryBean.getPcareUserToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.pgs.pcare.domain.PcareUser, java.lang.String>() {
             public String convert(PcareUser pcareUser) {
-                return new StringBuilder().append(pcareUser.getUserID()).append(' ').append(pcareUser.getFirstName()).append(' ').append(pcareUser.getLastName()).append(' ').append(pcareUser.getEmailId()).toString();
+                return new StringBuilder().append(pcareUser.getFirstName()).append(' ').append(pcareUser.getLastName()).append(' ').append(pcareUser.getEmailId()).append(' ').append(pcareUser.getDateOfBirth()).toString();
             }
         };
     }

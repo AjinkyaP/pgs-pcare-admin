@@ -32,12 +32,7 @@ public class Buddy {
      */
     private String emailId;
 
-    /**
-     */
-    @Temporal(TemporalType.TIMESTAMP)
-    @DateTimeFormat(style = "M-")
-    private Date dateOfBirth;
-
+    
     /**
      */
     @NotNull

@@ -12,11 +12,10 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
   private static java.util.List _jspx_dependants;
 
   static {
-    _jspx_dependants = new java.util.ArrayList(6);
+    _jspx_dependants = new java.util.ArrayList(5);
     _jspx_dependants.add("/WEB-INF/tags/form/create.tagx");
     _jspx_dependants.add("/WEB-INF/tags/util/panel.tagx");
     _jspx_dependants.add("/WEB-INF/tags/form/fields/input.tagx");
-    _jspx_dependants.add("/WEB-INF/tags/form/fields/datetime.tagx");
     _jspx_dependants.add("/WEB-INF/tags/form/dependency.tagx");
     _jspx_dependants.add("/WEB-INF/tags/form/fields/reference.tagx");
   }
@@ -111,14 +110,14 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005finput_005f0);
     _jspx_th_field_005finput_005f0.setJspContext(_jspx_page_context);
     _jspx_th_field_005finput_005f0.setParent(_jspx_parent);
-    // /WEB-INF/views/buddys/create.jspx(6,160) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f0.setZ("v02bGQFYZG8EQcGgh/sCv4m8B8o=");
-    // /WEB-INF/views/buddys/create.jspx(6,160) name = validationMessageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f0.setValidationMessageCode("field_invalid_integer");
-    // /WEB-INF/views/buddys/create.jspx(6,160) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f0.setId("c_com_pgs_pcare_domain_Buddy_buddyID");
-    // /WEB-INF/views/buddys/create.jspx(6,160) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f0.setField("buddyID");
+    // /WEB-INF/views/buddys/create.jspx(7,134) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f0.setZ("cVsB3+OjZiDsdvLhirr3sZj/EgI=");
+    // /WEB-INF/views/buddys/create.jspx(7,134) name = required type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f0.setRequired(new Boolean(true));
+    // /WEB-INF/views/buddys/create.jspx(7,134) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f0.setId("c_com_pgs_pcare_domain_Buddy_firstName");
+    // /WEB-INF/views/buddys/create.jspx(7,134) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f0.setField("firstName");
     _jspx_th_field_005finput_005f0.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005finput_005f0);
     return false;
@@ -133,14 +132,14 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005finput_005f1);
     _jspx_th_field_005finput_005f1.setJspContext(_jspx_page_context);
     _jspx_th_field_005finput_005f1.setParent(_jspx_parent);
-    // /WEB-INF/views/buddys/create.jspx(7,134) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f1.setZ("cVsB3+OjZiDsdvLhirr3sZj/EgI=");
-    // /WEB-INF/views/buddys/create.jspx(7,134) name = required type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    // /WEB-INF/views/buddys/create.jspx(8,132) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f1.setZ("+7RcztzbM6ST8orhM7Yiu0f3lvw=");
+    // /WEB-INF/views/buddys/create.jspx(8,132) name = required type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
     _jspx_th_field_005finput_005f1.setRequired(new Boolean(true));
-    // /WEB-INF/views/buddys/create.jspx(7,134) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f1.setId("c_com_pgs_pcare_domain_Buddy_firstName");
-    // /WEB-INF/views/buddys/create.jspx(7,134) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f1.setField("firstName");
+    // /WEB-INF/views/buddys/create.jspx(8,132) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f1.setId("c_com_pgs_pcare_domain_Buddy_lastName");
+    // /WEB-INF/views/buddys/create.jspx(8,132) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f1.setField("lastName");
     _jspx_th_field_005finput_005f1.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005finput_005f1);
     return false;
@@ -155,14 +154,14 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005finput_005f2);
     _jspx_th_field_005finput_005f2.setJspContext(_jspx_page_context);
     _jspx_th_field_005finput_005f2.setParent(_jspx_parent);
-    // /WEB-INF/views/buddys/create.jspx(8,132) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f2.setZ("+7RcztzbM6ST8orhM7Yiu0f3lvw=");
-    // /WEB-INF/views/buddys/create.jspx(8,132) name = required type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f2.setRequired(new Boolean(true));
-    // /WEB-INF/views/buddys/create.jspx(8,132) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f2.setId("c_com_pgs_pcare_domain_Buddy_lastName");
-    // /WEB-INF/views/buddys/create.jspx(8,132) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f2.setField("lastName");
+    // /WEB-INF/views/buddys/create.jspx(9,158) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f2.setZ("9bdeZ1nWaam5sU27o7CSiIunrfc=");
+    // /WEB-INF/views/buddys/create.jspx(9,158) name = validationMessageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f2.setValidationMessageCode("field_invalid_email");
+    // /WEB-INF/views/buddys/create.jspx(9,158) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f2.setId("c_com_pgs_pcare_domain_Buddy_emailId");
+    // /WEB-INF/views/buddys/create.jspx(9,158) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f2.setField("emailId");
     _jspx_th_field_005finput_005f2.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005finput_005f2);
     return false;
@@ -177,38 +176,18 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005finput_005f3);
     _jspx_th_field_005finput_005f3.setJspContext(_jspx_page_context);
     _jspx_th_field_005finput_005f3.setParent(_jspx_parent);
-    // /WEB-INF/views/buddys/create.jspx(9,158) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f3.setZ("9bdeZ1nWaam5sU27o7CSiIunrfc=");
-    // /WEB-INF/views/buddys/create.jspx(9,158) name = validationMessageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f3.setValidationMessageCode("field_invalid_email");
-    // /WEB-INF/views/buddys/create.jspx(9,158) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f3.setId("c_com_pgs_pcare_domain_Buddy_emailId");
-    // /WEB-INF/views/buddys/create.jspx(9,158) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f3.setField("emailId");
+    // /WEB-INF/views/buddys/create.jspx(10,147) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f3.setZ("WhHRuB1zMxNCq2iaz7tQwp6F5y4=");
+    // /WEB-INF/views/buddys/create.jspx(10,147) name = required type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f3.setRequired(new Boolean(true));
+    // /WEB-INF/views/buddys/create.jspx(10,147) name = min type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f3.setMin("10");
+    // /WEB-INF/views/buddys/create.jspx(10,147) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f3.setId("c_com_pgs_pcare_domain_Buddy_phoneNumber");
+    // /WEB-INF/views/buddys/create.jspx(10,147) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f3.setField("phoneNumber");
     _jspx_th_field_005finput_005f3.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005finput_005f3);
-    return false;
-  }
-
-  private boolean _jspx_meth_field_005fdatetime_005f0(javax.servlet.jsp.tagext.JspTag _jspx_parent, PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  field:datetime
-    org.apache.jsp.tag.web.form.fields.datetime_tagx _jspx_th_field_005fdatetime_005f0 = new org.apache.jsp.tag.web.form.fields.datetime_tagx();
-    org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005fdatetime_005f0);
-    _jspx_th_field_005fdatetime_005f0.setJspContext(_jspx_page_context);
-    _jspx_th_field_005fdatetime_005f0.setParent(_jspx_parent);
-    // /WEB-INF/views/buddys/create.jspx(10,176) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdatetime_005f0.setZ("D77SyG5Q74iggU0rIs6nZfIdRR8=");
-    // /WEB-INF/views/buddys/create.jspx(10,176) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdatetime_005f0.setId("c_com_pgs_pcare_domain_Buddy_dateOfBirth");
-    // /WEB-INF/views/buddys/create.jspx(10,176) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdatetime_005f0.setField("dateOfBirth");
-    // /WEB-INF/views/buddys/create.jspx(10,176) name = dateTimePattern type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005fdatetime_005f0.setDateTimePattern((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${buddy_dateofbirth_date_format}", java.lang.String.class, (PageContext)_jspx_page_context, null, false));
-    _jspx_th_field_005fdatetime_005f0.doTag();
-    org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005fdatetime_005f0);
     return false;
   }
 
@@ -221,16 +200,14 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
     org.apache.jasper.runtime.AnnotationHelper.postConstruct(_jsp_annotationprocessor, _jspx_th_field_005finput_005f4);
     _jspx_th_field_005finput_005f4.setJspContext(_jspx_page_context);
     _jspx_th_field_005finput_005f4.setParent(_jspx_parent);
-    // /WEB-INF/views/buddys/create.jspx(11,147) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f4.setZ("WhHRuB1zMxNCq2iaz7tQwp6F5y4=");
-    // /WEB-INF/views/buddys/create.jspx(11,147) name = required type = java.lang.Boolean reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f4.setRequired(new Boolean(true));
-    // /WEB-INF/views/buddys/create.jspx(11,147) name = min type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f4.setMin("10");
-    // /WEB-INF/views/buddys/create.jspx(11,147) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f4.setId("c_com_pgs_pcare_domain_Buddy_phoneNumber");
-    // /WEB-INF/views/buddys/create.jspx(11,147) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
-    _jspx_th_field_005finput_005f4.setField("phoneNumber");
+    // /WEB-INF/views/buddys/create.jspx(11,160) name = z type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f4.setZ("v02bGQFYZG8EQcGgh/sCv4m8B8o=");
+    // /WEB-INF/views/buddys/create.jspx(11,160) name = validationMessageCode type = java.lang.String reqTime = true required = false fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f4.setValidationMessageCode("field_invalid_integer");
+    // /WEB-INF/views/buddys/create.jspx(11,160) name = id type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f4.setId("c_com_pgs_pcare_domain_Buddy_buddyID");
+    // /WEB-INF/views/buddys/create.jspx(11,160) name = field type = java.lang.String reqTime = true required = true fragment = false deferredValue = false expectedTypeName = java.lang.String deferredMethod = false methodSignature = null
+    _jspx_th_field_005finput_005f4.setField("buddyID");
     _jspx_th_field_005finput_005f4.doTag();
     org.apache.jasper.runtime.AnnotationHelper.preDestroy(_jsp_annotationprocessor, _jspx_th_field_005finput_005f4);
     return false;
@@ -278,8 +255,6 @@ public final class create_jspx extends org.apache.jasper.runtime.HttpJspBase
       if (_jspx_meth_field_005finput_005f2(_jspx_parent, _jspx_page_context))
         return true;
       if (_jspx_meth_field_005finput_005f3(_jspx_parent, _jspx_page_context))
-        return true;
-      if (_jspx_meth_field_005fdatetime_005f0(_jspx_parent, _jspx_page_context))
         return true;
       if (_jspx_meth_field_005finput_005f4(_jspx_parent, _jspx_page_context))
         return true;

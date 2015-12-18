@@ -18,11 +18,6 @@ public class PcareUser {
     /**
      */
     @NotNull
-    private Integer userID;
-
-    /**
-     */
-    @NotNull
     private String firstName;
 
     /**
@@ -75,4 +70,8 @@ public class PcareUser {
     /**
      */
     private Boolean active;
+
+    /**
+     */
+    private Integer userID;
 }

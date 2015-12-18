@@ -66,8 +66,6 @@ static {
       out.write("<div version=\"2.0\" id=\"header\">");
       if (_jspx_meth_spring_005furl_005f0(_jspx_page_context))
         return;
-      if (_jspx_meth_spring_005furl_005f1(_jspx_page_context))
-        return;
       if (_jspx_meth_spring_005fmessage_005f0(_jspx_page_context))
         return;
       out.write("<a title=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${fn:escapeXml(home_label)}", java.lang.String.class, (PageContext)_jspx_page_context, _jspx_fnmap_0, false) + "\" name=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${fn:escapeXml(home_label)}", java.lang.String.class, (PageContext)_jspx_page_context, _jspx_fnmap_0, false) + "\" href=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${home}", java.lang.String.class, (PageContext)_jspx_page_context, null, false) + "\">");
@@ -94,10 +92,10 @@ static {
     org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_005furl_005f0 = (org.springframework.web.servlet.tags.UrlTag) _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.get(org.springframework.web.servlet.tags.UrlTag.class);
     _jspx_th_spring_005furl_005f0.setPageContext(_jspx_page_context);
     _jspx_th_spring_005furl_005f0.setParent(null);
-    // /WEB-INF/views/header.jspx(5,75) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_spring_005furl_005f0.setValue("/resources/images/banner-graphic.png");
-    // /WEB-INF/views/header.jspx(5,75) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_spring_005furl_005f0.setVar("banner");
+    // /WEB-INF/views/header.jspx(6,38) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_spring_005furl_005f0.setValue("/");
+    // /WEB-INF/views/header.jspx(6,38) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_spring_005furl_005f0.setVar("home");
     int[] _jspx_push_body_count_spring_005furl_005f0 = new int[] { 0 };
     try {
       int _jspx_eval_spring_005furl_005f0 = _jspx_th_spring_005furl_005f0.doStartTag();
@@ -111,35 +109,6 @@ static {
     } finally {
       _jspx_th_spring_005furl_005f0.doFinally();
       _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.reuse(_jspx_th_spring_005furl_005f0);
-    }
-    return false;
-  }
-
-  private boolean _jspx_meth_spring_005furl_005f1(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  spring:url
-    org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_005furl_005f1 = (org.springframework.web.servlet.tags.UrlTag) _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.get(org.springframework.web.servlet.tags.UrlTag.class);
-    _jspx_th_spring_005furl_005f1.setPageContext(_jspx_page_context);
-    _jspx_th_spring_005furl_005f1.setParent(null);
-    // /WEB-INF/views/header.jspx(6,38) name = value type = null reqTime = true required = true fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_spring_005furl_005f1.setValue("/");
-    // /WEB-INF/views/header.jspx(6,38) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_spring_005furl_005f1.setVar("home");
-    int[] _jspx_push_body_count_spring_005furl_005f1 = new int[] { 0 };
-    try {
-      int _jspx_eval_spring_005furl_005f1 = _jspx_th_spring_005furl_005f1.doStartTag();
-      if (_jspx_th_spring_005furl_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-        return true;
-      }
-    } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_spring_005furl_005f1[0]-- > 0)
-        out = _jspx_page_context.popBody();
-      _jspx_th_spring_005furl_005f1.doCatch(_jspx_exception);
-    } finally {
-      _jspx_th_spring_005furl_005f1.doFinally();
-      _005fjspx_005ftagPool_005fspring_005furl_0026_005fvar_005fvalue_005fnobody.reuse(_jspx_th_spring_005furl_005f1);
     }
     return false;
   }

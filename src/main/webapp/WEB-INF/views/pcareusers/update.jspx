@@ -3,7 +3,6 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_pgs_pcare_domain_PcareUser" modelAttribute="pcareUser" path="/pcareusers" versionField="Version" z="CNyi53TWstyZCb6qQvnI/ZfyKLY=">
-        <field:input field="userID" id="c_com_pgs_pcare_domain_PcareUser_userID" required="true" validationMessageCode="field_invalid_integer" z="xV9VnxEylU2ItuILbNNJK6AzHJY="/>
         <field:input field="firstName" id="c_com_pgs_pcare_domain_PcareUser_firstName" required="true" z="WWaCxWDpBOVN8UZXP8GEiW15JBw="/>
         <field:input field="lastName" id="c_com_pgs_pcare_domain_PcareUser_lastName" required="true" z="LYz/9m5NJwQOLRggdGWX/rexRFU="/>
         <field:input field="emailId" id="c_com_pgs_pcare_domain_PcareUser_emailId" validationMessageCode="field_invalid_email" z="8z+gzeUG2KvaqqbaQskNJD5Owt8="/>
@@ -15,5 +14,6 @@
         <field:datetime dateTimePattern="${pcareUser_registeredon_date_format}" field="registeredOn" id="c_com_pgs_pcare_domain_PcareUser_registeredOn" z="Ly1SjGXhuAFHwWXpziZ6xdYw2bM="/>
         <field:datetime dateTimePattern="${pcareUser_termsacceptedon_date_format}" field="termsAcceptedOn" id="c_com_pgs_pcare_domain_PcareUser_termsAcceptedOn" z="cZG5r4ePGnTiMkeVotDGtrkMdqI="/>
         <field:checkbox field="active" id="c_com_pgs_pcare_domain_PcareUser_active" z="0iQwUgsZnp+KaiQM1Bf1rchr6Y4="/>
+        <field:input field="userID" id="c_com_pgs_pcare_domain_PcareUser_userID" validationMessageCode="field_invalid_integer" z="kOMMaLrk3g1FUUEfYrxTVMK5UBE="/>
     </form:update>
 </div>

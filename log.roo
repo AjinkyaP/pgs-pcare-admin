@@ -28,3 +28,12 @@ web mvc all --package ~.web
 // Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2015-12-18 16:47:04
 dependency add --groupId postgresql --artifactId postgresql --version 9.0-801.jdbc3
 persistence setup --database POSTGRES --provider HIBERNATE --databaseName pcare --userName postgres --password PGSAdmin$32
+hint
+hint entities
+help
+// [failed] entity jpa --class ~domain.PcareUser
+// [failed] focus --class ~.PcareUser
+focus --class ~domain.PcareUser
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2015-12-18 17:43:27
+focus --class ~domain.PcareUser
+field number --fieldName userID --type java.lang.Integer

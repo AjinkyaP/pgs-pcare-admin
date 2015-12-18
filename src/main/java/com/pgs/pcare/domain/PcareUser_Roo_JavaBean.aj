@@ -9,14 +9,6 @@ import java.util.Date;
 
 privileged aspect PcareUser_Roo_JavaBean {
     
-    public Integer PcareUser.getUserID() {
-        return this.userID;
-    }
-    
-    public void PcareUser.setUserID(Integer userID) {
-        this.userID = userID;
-    }
-    
     public String PcareUser.getFirstName() {
         return this.firstName;
     }
@@ -103,6 +95,14 @@ privileged aspect PcareUser_Roo_JavaBean {
     
     public void PcareUser.setActive(Boolean active) {
         this.active = active;
+    }
+    
+    public Integer PcareUser.getUserID() {
+        return this.userID;
+    }
+    
+    public void PcareUser.setUserID(Integer userID) {
+        this.userID = userID;
     }
     
 }

@@ -8,7 +8,6 @@
             <table:column id="c_com_pgs_pcare_domain_Buddy_firstName" property="firstName" z="ot4efL25euKn/2FwClcH0VLntQo="/>
             <table:column id="c_com_pgs_pcare_domain_Buddy_lastName" property="lastName" z="YApYfPJE4r27hCmeuhHU0jEEvhs="/>
             <table:column id="c_com_pgs_pcare_domain_Buddy_emailId" property="emailId" z="OA6V9m7OjgXHBL3wCai8ZN0REys="/>
-            <table:column date="true" dateTimePattern="${buddy_dateofbirth_date_format}" id="c_com_pgs_pcare_domain_Buddy_dateOfBirth" property="dateOfBirth" z="DRMMPgScGhbpV4XQdRlHCZb0Hmc="/>
             <table:column id="c_com_pgs_pcare_domain_Buddy_phoneNumber" property="phoneNumber" z="NQrCdaj6OhJXOdqljqT+ZomMipw="/>
         </table:table>
     </page:list>

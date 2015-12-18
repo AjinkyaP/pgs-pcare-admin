@@ -14,7 +14,7 @@ privileged aspect PcareUser_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager PcareUser.entityManager;
     
-    public static final List<String> PcareUser.fieldNames4OrderClauseFilter = java.util.Arrays.asList("userID", "firstName", "lastName", "emailId", "dateOfBirth", "phoneNumber", "buddy", "deviceSerialNumber", "createdOn", "registeredOn", "termsAcceptedOn", "active");
+    public static final List<String> PcareUser.fieldNames4OrderClauseFilter = java.util.Arrays.asList("firstName", "lastName", "emailId", "dateOfBirth", "phoneNumber", "buddy", "deviceSerialNumber", "createdOn", "registeredOn", "termsAcceptedOn", "active", "userID");
     
     public static final EntityManager PcareUser.entityManager() {
         EntityManager em = new PcareUser().entityManager;

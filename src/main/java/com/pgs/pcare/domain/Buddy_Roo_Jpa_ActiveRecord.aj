@@ -14,7 +14,7 @@ privileged aspect Buddy_Roo_Jpa_ActiveRecord {
     @PersistenceContext
     transient EntityManager Buddy.entityManager;
     
-    public static final List<String> Buddy.fieldNames4OrderClauseFilter = java.util.Arrays.asList("buddyID", "firstName", "lastName", "emailId", "dateOfBirth", "phoneNumber");
+    public static final List<String> Buddy.fieldNames4OrderClauseFilter = java.util.Arrays.asList("buddyID", "firstName", "lastName", "emailId", "phoneNumber");
     
     public static final EntityManager Buddy.entityManager() {
         EntityManager em = new Buddy().entityManager;

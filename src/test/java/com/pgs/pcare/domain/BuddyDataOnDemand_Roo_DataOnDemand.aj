@@ -7,9 +7,6 @@ import com.pgs.pcare.domain.Buddy;
 import com.pgs.pcare.domain.BuddyDataOnDemand;
 import java.security.SecureRandom;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
@@ -28,7 +25,6 @@ privileged aspect BuddyDataOnDemand_Roo_DataOnDemand {
     public Buddy BuddyDataOnDemand.getNewTransientBuddy(int index) {
         Buddy obj = new Buddy();
         setBuddyID(obj, index);
-        setDateOfBirth(obj, index);
         setEmailId(obj, index);
         setFirstName(obj, index);
         setLastName(obj, index);
@@ -39,11 +35,6 @@ privileged aspect BuddyDataOnDemand_Roo_DataOnDemand {
     public void BuddyDataOnDemand.setBuddyID(Buddy obj, int index) {
         Integer buddyID = new Integer(index);
         obj.setBuddyID(buddyID);
-    }
-    
-    public void BuddyDataOnDemand.setDateOfBirth(Buddy obj, int index) {
-        Date dateOfBirth = new GregorianCalendar(Calendar.getInstance().get(Calendar.YEAR), Calendar.getInstance().get(Calendar.MONTH), Calendar.getInstance().get(Calendar.DAY_OF_MONTH), Calendar.getInstance().get(Calendar.HOUR_OF_DAY), Calendar.getInstance().get(Calendar.MINUTE), Calendar.getInstance().get(Calendar.SECOND) + new Double(Math.random() * 1000).intValue()).getTime();
-        obj.setDateOfBirth(dateOfBirth);
     }
     
     public void BuddyDataOnDemand.setEmailId(Buddy obj, int index) {

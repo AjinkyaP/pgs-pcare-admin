@@ -4,7 +4,6 @@
 package com.pgs.pcare.domain;
 
 import com.pgs.pcare.domain.Buddy;
-import java.util.Date;
 
 privileged aspect Buddy_Roo_JavaBean {
     
@@ -38,14 +37,6 @@ privileged aspect Buddy_Roo_JavaBean {
     
     public void Buddy.setEmailId(String emailId) {
         this.emailId = emailId;
-    }
-    
-    public Date Buddy.getDateOfBirth() {
-        return this.dateOfBirth;
-    }
-    
-    public void Buddy.setDateOfBirth(Date dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
     }
     
     public String Buddy.getPhoneNumber() {
