@@ -1,0 +1,18 @@
+<aspectj>
+<aspects>
+<aspect name="com.pgs.pcare.domain.PcareUser_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.pgs.pcare.domain.PcareUser_Roo_ToString"/>
+<aspect name="com.pgs.pcare.domain.Buddy_Roo_Jpa_Entity"/>
+<aspect name="com.pgs.pcare.domain.Buddy_Roo_Configurable"/>
+<aspect name="com.pgs.pcare.web.BuddyController_Roo_Controller"/>
+<aspect name="com.pgs.pcare.domain.Buddy_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.pgs.pcare.domain.PcareUser_Roo_Configurable"/>
+<aspect name="com.pgs.pcare.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.pgs.pcare.domain.PcareUser_Roo_JavaBean"/>
+<aspect name="com.pgs.pcare.web.PcareUserController_Roo_Controller"/>
+<aspect name="com.pgs.pcare.domain.Buddy_Roo_JavaBean"/>
+<aspect name="com.pgs.pcare.domain.PcareUser_Roo_Jpa_Entity"/>
+<aspect name="com.pgs.pcare.domain.Buddy_Roo_ToString"/>
+</aspects>
+</aspectj>
+

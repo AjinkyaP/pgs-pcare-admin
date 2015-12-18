@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_pgs_pcare_domain_Buddy" object="${buddy}" path="/buddys" z="SmeD8ZpV+O/O2YgdWHlbpiKeBTs=">
+        <field:display field="buddyID" id="s_com_pgs_pcare_domain_Buddy_buddyID" object="${buddy}" z="j5MVQfkvTyTqmhTpXNzCHX4ot2s="/>
+        <field:display field="firstName" id="s_com_pgs_pcare_domain_Buddy_firstName" object="${buddy}" z="jOds3pK00/35mTrB/gEYQIug3Fk="/>
+        <field:display field="lastName" id="s_com_pgs_pcare_domain_Buddy_lastName" object="${buddy}" z="afnicuDmGJZHH/B68i1V8lI8sls="/>
+        <field:display field="emailId" id="s_com_pgs_pcare_domain_Buddy_emailId" object="${buddy}" z="wyJgjh7YPbF01iB+aV7XOhYfQU0="/>
+        <field:display date="true" dateTimePattern="${buddy_dateofbirth_date_format}" field="dateOfBirth" id="s_com_pgs_pcare_domain_Buddy_dateOfBirth" object="${buddy}" z="9IGqwehoOv+Eh+kppteswV7KsIk="/>
+        <field:display field="phoneNumber" id="s_com_pgs_pcare_domain_Buddy_phoneNumber" object="${buddy}" z="PwVshZGpo1TslE7PSJqeuXv963o="/>
+    </page:show>
+</div>

@@ -1,0 +1,30 @@
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2015-12-18 15:54:17
+project --topLevelPackage com.pgs.pcare
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
+entity jpa --class ~.domain.Buddy --testAutomatically
+field number --fieldName buddyID --type java.lang.Integer
+field string --fieldName firstName --notNull
+field string --fieldName lastName --notNull
+field string --fieldName emailId
+field date --fieldName dateOfBirth --type java.util.Date
+field string --fieldName phoneNumber --notNull --sizeMin 10
+// [failed] entity jpa --class ~.domain.User --testAutomatically
+entity jpa --class ~.domain.pcareUser --testAutomatically
+field number --fieldName userID --notNull --type java.lang.Integer
+field string --fieldName firstName --notNull
+field string --fieldName lastName --notNull
+field string --fieldName emailId
+field date --fieldName dateOfBirth --type java.util.Date
+field string --fieldName phoneNumber  --sizeMin 10
+field reference --fieldName buddy --type ~.domain.Buddy
+field string --fieldName deviceSerialNumber
+field date --fieldName createdOn --type java.util.Date
+field date --fieldName registeredOn --type java.util.Date
+field date --fieldName termsAcceptedOn --type java.util.Date
+field boolean --fieldName active
+// [failed] perform tests
+web mvc setup
+web mvc all --package ~.web
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2015-12-18 16:47:04
+dependency add --groupId postgresql --artifactId postgresql --version 9.0-801.jdbc3
+persistence setup --database POSTGRES --provider HIBERNATE --databaseName pcare --userName postgres --password PGSAdmin$32

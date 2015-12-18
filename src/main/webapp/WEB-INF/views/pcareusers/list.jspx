@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_pgs_pcare_domain_PcareUser" items="${pcareusers}" z="AfKN9A2KOb7fZxxBOwGPnp5MyDg=">
+        <table:table data="${pcareusers}" id="l_com_pgs_pcare_domain_PcareUser" path="/pcareusers" z="jiyTHS4Pr7pXXHfZ1f00DbKKDrQ=">
+            <table:column id="c_com_pgs_pcare_domain_PcareUser_userID" property="userID" z="f1X40RYI4dmfYxuWYS18pJbE3YQ="/>
+            <table:column id="c_com_pgs_pcare_domain_PcareUser_firstName" property="firstName" z="ECcW2HiyXlfdcWmwezRbfnkj3G0="/>
+            <table:column id="c_com_pgs_pcare_domain_PcareUser_lastName" property="lastName" z="14/QSKe00AFaClAYymBgJBsmc4k="/>
+            <table:column id="c_com_pgs_pcare_domain_PcareUser_emailId" property="emailId" z="IqpNIp9sRS70dR6KiIlEZBcN/P4="/>
+            <table:column date="true" dateTimePattern="${pcareUser_dateofbirth_date_format}" id="c_com_pgs_pcare_domain_PcareUser_dateOfBirth" property="dateOfBirth" z="JFL2xjPm87TxsnfvYd1VysaTl0M="/>
+            <table:column id="c_com_pgs_pcare_domain_PcareUser_phoneNumber" property="phoneNumber" z="Vp6taovFOrcg9DHU+zkd8CeyZBk="/>
+        </table:table>
+    </page:list>
+</div>

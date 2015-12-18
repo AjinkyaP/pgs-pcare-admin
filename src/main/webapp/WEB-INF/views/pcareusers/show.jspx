@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_pgs_pcare_domain_PcareUser" object="${pcareuser}" path="/pcareusers" z="eoWW2XJmecDBK+c9tYusd2Km+L4=">
+        <field:display field="userID" id="s_com_pgs_pcare_domain_PcareUser_userID" object="${pcareuser}" z="EUA0QSe6XwI1UyKke7GLO5unPwI="/>
+        <field:display field="firstName" id="s_com_pgs_pcare_domain_PcareUser_firstName" object="${pcareuser}" z="4pR0HVO9cRZ90rtcN0XWXjMk8SA="/>
+        <field:display field="lastName" id="s_com_pgs_pcare_domain_PcareUser_lastName" object="${pcareuser}" z="KcG7CtVrU4hU/X3q4Klg1goLI14="/>
+        <field:display field="emailId" id="s_com_pgs_pcare_domain_PcareUser_emailId" object="${pcareuser}" z="Qeom4gh2AzE/+sMrh+wpAaLqdY0="/>
+        <field:display date="true" dateTimePattern="${pcareUser_dateofbirth_date_format}" field="dateOfBirth" id="s_com_pgs_pcare_domain_PcareUser_dateOfBirth" object="${pcareuser}" z="tEGVndmbF2pudjbgU+PzwMQGbfM="/>
+        <field:display field="phoneNumber" id="s_com_pgs_pcare_domain_PcareUser_phoneNumber" object="${pcareuser}" z="yEqHra7WLHU+0loTWLcNYdO9RVg="/>
+        <field:display field="buddy" id="s_com_pgs_pcare_domain_PcareUser_buddy" object="${pcareuser}" z="nRu1pIZNMjxiI7ELwjwNHlCkAgU="/>
+        <field:display field="deviceSerialNumber" id="s_com_pgs_pcare_domain_PcareUser_deviceSerialNumber" object="${pcareuser}" z="t3uXybRWGnggHpXJe1l7XdEc6Ss="/>
+        <field:display date="true" dateTimePattern="${pcareUser_createdon_date_format}" field="createdOn" id="s_com_pgs_pcare_domain_PcareUser_createdOn" object="${pcareuser}" z="Xil74fWpCW+epmUvwafS6bzFeaQ="/>
+        <field:display date="true" dateTimePattern="${pcareUser_registeredon_date_format}" field="registeredOn" id="s_com_pgs_pcare_domain_PcareUser_registeredOn" object="${pcareuser}" z="9qBJjUme2a1j1rq7uQ1iW9OzCco="/>
+        <field:display date="true" dateTimePattern="${pcareUser_termsacceptedon_date_format}" field="termsAcceptedOn" id="s_com_pgs_pcare_domain_PcareUser_termsAcceptedOn" object="${pcareuser}" z="oME+0dRcYsUAOJRZH0fp9qXnI7Q="/>
+        <field:display field="active" id="s_com_pgs_pcare_domain_PcareUser_active" object="${pcareuser}" z="Z7wK0fRzeCfnu7P+cXz1Fi8lhzw="/>
+    </page:show>
+</div>

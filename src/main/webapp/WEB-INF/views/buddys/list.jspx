@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_pgs_pcare_domain_Buddy" items="${buddys}" z="GX0NC6P6ire0AKJ+/2OlvR+ZIU8=">
+        <table:table data="${buddys}" id="l_com_pgs_pcare_domain_Buddy" path="/buddys" z="s5bqQeO0arBymPircKiYvtYkJOY=">
+            <table:column id="c_com_pgs_pcare_domain_Buddy_buddyID" property="buddyID" z="IRPXq8GkudTS/DmGpLGwkNTRUKg="/>
+            <table:column id="c_com_pgs_pcare_domain_Buddy_firstName" property="firstName" z="ot4efL25euKn/2FwClcH0VLntQo="/>
+            <table:column id="c_com_pgs_pcare_domain_Buddy_lastName" property="lastName" z="YApYfPJE4r27hCmeuhHU0jEEvhs="/>
+            <table:column id="c_com_pgs_pcare_domain_Buddy_emailId" property="emailId" z="OA6V9m7OjgXHBL3wCai8ZN0REys="/>
+            <table:column date="true" dateTimePattern="${buddy_dateofbirth_date_format}" id="c_com_pgs_pcare_domain_Buddy_dateOfBirth" property="dateOfBirth" z="DRMMPgScGhbpV4XQdRlHCZb0Hmc="/>
+            <table:column id="c_com_pgs_pcare_domain_Buddy_phoneNumber" property="phoneNumber" z="NQrCdaj6OhJXOdqljqT+ZomMipw="/>
+        </table:table>
+    </page:list>
+</div>

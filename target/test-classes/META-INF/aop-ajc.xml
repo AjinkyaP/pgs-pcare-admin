@@ -1,0 +1,13 @@
+<aspectj>
+<aspects>
+<aspect name="com.pgs.pcare.domain.PcareUserIntegrationTest_Roo_Configurable"/>
+<aspect name="com.pgs.pcare.domain.BuddyDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.pgs.pcare.domain.PcareUserDataOnDemand_Roo_Configurable"/>
+<aspect name="com.pgs.pcare.domain.BuddyIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.pgs.pcare.domain.PcareUserDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.pgs.pcare.domain.BuddyDataOnDemand_Roo_Configurable"/>
+<aspect name="com.pgs.pcare.domain.PcareUserIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.pgs.pcare.domain.BuddyIntegrationTest_Roo_Configurable"/>
+</aspects>
+</aspectj>
+
